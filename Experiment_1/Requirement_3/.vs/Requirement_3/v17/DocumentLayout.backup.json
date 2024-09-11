@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\CSharpHomework\\Experiment_1\\Requirement_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6A0601-4B72-4032-9072-1CADC5E74AC4}|Requirement_3\\Requirement_3.csproj|c:\\projects\\csharphomework\\experiment_1\\requirement_3\\requirement_3\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AE6A0601-4B72-4032-9072-1CADC5E74AC4}|Requirement_3\\Requirement_3.csproj|solutionrelative:requirement_3\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6A0601-4B72-4032-9072-1CADC5E74AC4}|Requirement_3\\Requirement_3.csproj|c:\\projects\\csharphomework\\experiment_1\\requirement_3\\requirement_3\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6A0601-4B72-4032-9072-1CADC5E74AC4}|Requirement_3\\Requirement_3.csproj|solutionrelative:requirement_3\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE6A0601-4B72-4032-9072-1CADC5E74AC4}|Requirement_3\\Requirement_3.csproj|c:\\projects\\csharphomework\\experiment_1\\requirement_3\\requirement_3\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE6A0601-4B72-4032-9072-1CADC5E74AC4}|Requirement_3\\Requirement_3.csproj|solutionrelative:requirement_3\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Projects\\CSharpHomework\\Experiment_1\\Requirement_3\\Requirement_3\\Main.cs",
+              "RelativeDocumentMoniker": "Requirement_3\\Main.cs",
+              "ToolTip": "C:\\Projects\\CSharpHomework\\Experiment_1\\Requirement_3\\Requirement_3\\Main.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "Requirement_3\\Main.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:41:49.784Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Projects\\CSharpHomework\\Experiment_1\\Requirement_3\\Requirement_3\\Main.cs",
+              "RelativeDocumentMoniker": "Requirement_3\\Main.cs",
+              "ToolTip": "C:\\Projects\\CSharpHomework\\Experiment_1\\Requirement_3\\Requirement_3\\Main.cs",
+              "RelativeToolTip": "Requirement_3\\Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:36:05.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.Designer.cs",
+              "DocumentMoniker": "C:\\Projects\\CSharpHomework\\Experiment_1\\Requirement_3\\Requirement_3\\Main.Designer.cs",
+              "RelativeDocumentMoniker": "Requirement_3\\Main.Designer.cs",
+              "ToolTip": "C:\\Projects\\CSharpHomework\\Experiment_1\\Requirement_3\\Requirement_3\\Main.Designer.cs",
+              "RelativeToolTip": "Requirement_3\\Main.Designer.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAAABABAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:36:01.082Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

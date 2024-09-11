@@ -1,0 +1,14 @@
+C:\Projects\CSharpHomework\Experiment_1\Requirement_1\Requirement_1\bin\Debug\net8.0\Requirement_1.exe
+C:\Projects\CSharpHomework\Experiment_1\Requirement_1\Requirement_1\bin\Debug\net8.0\Requirement_1.deps.json
+C:\Projects\CSharpHomework\Experiment_1\Requirement_1\Requirement_1\bin\Debug\net8.0\Requirement_1.runtimeconfig.json
+C:\Projects\CSharpHomework\Experiment_1\Requirement_1\Requirement_1\bin\Debug\net8.0\Requirement_1.dll
+C:\Projects\CSharpHomework\Experiment_1\Requirement_1\Requirement_1\bin\Debug\net8.0\Requirement_1.pdb
+C:\Projects\CSharpHomework\Experiment_1\Requirement_1\Requirement_1\obj\Debug\net8.0\Requirement_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CSharpHomework\Experiment_1\Requirement_1\Requirement_1\obj\Debug\net8.0\Requirement_1.AssemblyInfoInputs.cache
+C:\Projects\CSharpHomework\Experiment_1\Requirement_1\Requirement_1\obj\Debug\net8.0\Requirement_1.AssemblyInfo.cs
+C:\Projects\CSharpHomework\Experiment_1\Requirement_1\Requirement_1\obj\Debug\net8.0\Requirement_1.csproj.CoreCompileInputs.cache
+C:\Projects\CSharpHomework\Experiment_1\Requirement_1\Requirement_1\obj\Debug\net8.0\Requirement_1.dll
+C:\Projects\CSharpHomework\Experiment_1\Requirement_1\Requirement_1\obj\Debug\net8.0\refint\Requirement_1.dll
+C:\Projects\CSharpHomework\Experiment_1\Requirement_1\Requirement_1\obj\Debug\net8.0\Requirement_1.pdb
+C:\Projects\CSharpHomework\Experiment_1\Requirement_1\Requirement_1\obj\Debug\net8.0\Requirement_1.genruntimeconfig.cache
+C:\Projects\CSharpHomework\Experiment_1\Requirement_1\Requirement_1\obj\Debug\net8.0\ref\Requirement_1.dll

@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Requirement_2/1.0.0": {
+        "dependencies": {
+          "AntdUI": "1.5.9"
+        },
+        "runtime": {
+          "Requirement_2.dll": {}
+        }
+      },
+      "AntdUI/1.5.9": {
+        "runtime": {
+          "lib/net8.0-windows7.0/AntdUI.dll": {
+            "assemblyVersion": "1.5.9.0",
+            "fileVersion": "1.5.9.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Requirement_2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AntdUI/1.5.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6V7b29yPvt13MPEZNgo1OwcKsj0RV0Y2WhGBO3UghLHwcEjMF+ntY+ZLf8l3QKxel82MbMHfa0bgWO/UUoyM4w==",
+      "path": "antdui/1.5.9",
+      "hashPath": "antdui.1.5.9.nupkg.sha512"
+    }
+  }
+}
