@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             panel_top = new Panel();
-            label = new AntdUI.Label();
+            title = new AntdUI.Label();
             btn_min = new AntdUI.Button();
             btn_max = new AntdUI.Button();
             btn_close = new AntdUI.Button();
@@ -50,13 +50,16 @@
             button_div = new AntdUI.Button();
             button_mul = new AntdUI.Button();
             button_sub = new AntdUI.Button();
-            label1 = new AntdUI.Label();
+            expression = new AntdUI.Label();
+            button_sqaure = new AntdUI.Button();
+            button_right = new AntdUI.Button();
+            button_left = new AntdUI.Button();
             panel_top.SuspendLayout();
             SuspendLayout();
             // 
             // panel_top
             // 
-            panel_top.Controls.Add(label);
+            panel_top.Controls.Add(title);
             panel_top.Controls.Add(btn_min);
             panel_top.Controls.Add(btn_max);
             panel_top.Controls.Add(btn_close);
@@ -66,14 +69,14 @@
             panel_top.Size = new Size(300, 40);
             panel_top.TabIndex = 0;
             // 
-            // label
+            // title
             // 
-            label.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 134);
-            label.Location = new Point(12, 0);
-            label.Name = "label";
-            label.Size = new Size(68, 40);
-            label.TabIndex = 4;
-            label.Text = "计算器";
+            title.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            title.Location = new Point(12, 0);
+            title.Name = "title";
+            title.Size = new Size(68, 40);
+            title.TabIndex = 4;
+            title.Text = "计算器";
             // 
             // btn_min
             // 
@@ -122,153 +125,202 @@
             // 
             // button1
             // 
-            button1.Location = new Point(20, 362);
+            button1.Location = new Point(20, 447);
             button1.Name = "button1";
             button1.Size = new Size(60, 60);
             button1.TabIndex = 1;
             button1.Text = "1";
+            button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(86, 362);
+            button2.Location = new Point(86, 447);
             button2.Name = "button2";
             button2.Size = new Size(60, 60);
             button2.TabIndex = 2;
             button2.Text = "2";
+            button2.Click += button2_Click;
             // 
             // button3
             // 
-            button3.Location = new Point(152, 362);
+            button3.Location = new Point(152, 447);
             button3.Name = "button3";
             button3.Size = new Size(60, 60);
             button3.TabIndex = 3;
             button3.Text = "3";
+            button3.Click += button3_Click;
             // 
             // button4
             // 
-            button4.Location = new Point(20, 296);
+            button4.Location = new Point(20, 381);
             button4.Name = "button4";
             button4.Size = new Size(60, 60);
             button4.TabIndex = 4;
             button4.Text = "4";
+            button4.Click += button4_Click;
             // 
             // button5
             // 
-            button5.Location = new Point(86, 296);
+            button5.Location = new Point(86, 381);
             button5.Name = "button5";
             button5.Size = new Size(60, 60);
             button5.TabIndex = 5;
             button5.Text = "5";
+            button5.Click += button5_Click;
             // 
             // button6
             // 
-            button6.Location = new Point(152, 296);
+            button6.Location = new Point(152, 381);
             button6.Name = "button6";
             button6.Size = new Size(60, 60);
             button6.TabIndex = 6;
             button6.Text = "6";
+            button6.Click += button6_Click;
             // 
             // button7
             // 
-            button7.Location = new Point(20, 230);
+            button7.Location = new Point(20, 315);
             button7.Name = "button7";
             button7.Size = new Size(60, 60);
             button7.TabIndex = 7;
             button7.Text = "7";
+            button7.Click += button7_Click;
             // 
             // button8
             // 
-            button8.Location = new Point(86, 230);
+            button8.Location = new Point(86, 315);
             button8.Name = "button8";
             button8.Size = new Size(60, 60);
             button8.TabIndex = 8;
             button8.Text = "8";
+            button8.Click += button8_Click;
             // 
             // button9
             // 
-            button9.Location = new Point(152, 230);
+            button9.Location = new Point(152, 315);
             button9.Name = "button9";
             button9.Size = new Size(60, 60);
             button9.TabIndex = 9;
             button9.Text = "9";
+            button9.Click += button9_Click;
             // 
             // button_dot
             // 
-            button_dot.Location = new Point(152, 428);
+            button_dot.Location = new Point(152, 513);
             button_dot.Name = "button_dot";
             button_dot.Size = new Size(60, 60);
             button_dot.TabIndex = 15;
             button_dot.Text = ".";
+            button_dot.Click += button_dot_Click;
             // 
             // button0
             // 
-            button0.Location = new Point(20, 428);
+            button0.Location = new Point(20, 513);
             button0.Name = "button0";
             button0.Size = new Size(126, 60);
             button0.TabIndex = 14;
             button0.Text = "0";
+            button0.Click += button0_Click;
             // 
             // button_add
             // 
-            button_add.Location = new Point(218, 230);
+            button_add.Location = new Point(218, 249);
             button_add.Name = "button_add";
             button_add.Size = new Size(60, 126);
             button_add.TabIndex = 16;
             button_add.Text = "+";
+            button_add.Click += button_add_Click;
             // 
             // button_enter
             // 
-            button_enter.Location = new Point(218, 362);
+            button_enter.Location = new Point(218, 381);
             button_enter.Name = "button_enter";
-            button_enter.Size = new Size(60, 126);
+            button_enter.Size = new Size(60, 192);
             button_enter.TabIndex = 17;
             button_enter.Text = "enter";
+            button_enter.Click += button_enter_Click;
             // 
             // button_lock
             // 
-            button_lock.Location = new Point(20, 164);
+            button_lock.Location = new Point(20, 183);
             button_lock.Name = "button_lock";
             button_lock.Size = new Size(60, 60);
             button_lock.TabIndex = 18;
-            button_lock.Text = "Num";
+            button_lock.Text = "Clear";
+            button_lock.Click += button_lock_Click;
             // 
             // button_div
             // 
-            button_div.Location = new Point(86, 164);
+            button_div.Location = new Point(86, 183);
             button_div.Name = "button_div";
             button_div.Size = new Size(60, 60);
             button_div.TabIndex = 19;
             button_div.Text = "/";
+            button_div.Click += button_div_Click;
             // 
             // button_mul
             // 
-            button_mul.Location = new Point(152, 164);
+            button_mul.Location = new Point(152, 183);
             button_mul.Name = "button_mul";
             button_mul.Size = new Size(60, 60);
             button_mul.TabIndex = 20;
             button_mul.Text = "*";
+            button_mul.Click += button_mul_Click;
             // 
             // button_sub
             // 
-            button_sub.Location = new Point(218, 164);
+            button_sub.Location = new Point(218, 183);
             button_sub.Name = "button_sub";
             button_sub.Size = new Size(60, 60);
             button_sub.TabIndex = 21;
             button_sub.Text = "-";
+            button_sub.Click += button_sub_Click;
             // 
-            // label1
+            // expression
             // 
-            label1.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            label1.Location = new Point(20, 74);
-            label1.Name = "label1";
-            label1.Size = new Size(258, 74);
-            label1.TabIndex = 22;
-            label1.Text = "label1";
+            expression.BackColor = SystemColors.ControlLight;
+            expression.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            expression.Location = new Point(20, 74);
+            expression.Name = "expression";
+            expression.Padding = new Padding(10, 0, 10, 0);
+            expression.Size = new Size(258, 74);
+            expression.TabIndex = 22;
+            expression.Text = "";
+            // 
+            // button_sqaure
+            // 
+            button_sqaure.Location = new Point(152, 249);
+            button_sqaure.Name = "button_sqaure";
+            button_sqaure.Size = new Size(60, 60);
+            button_sqaure.TabIndex = 25;
+            button_sqaure.Text = "^";
+            button_sqaure.Click += button_sqaure_Click;
+            // 
+            // button_right
+            // 
+            button_right.Location = new Point(86, 249);
+            button_right.Name = "button_right";
+            button_right.Size = new Size(60, 60);
+            button_right.TabIndex = 24;
+            button_right.Text = ")";
+            button_right.Click += button_right_Click;
+            // 
+            // button_left
+            // 
+            button_left.Location = new Point(20, 249);
+            button_left.Name = "button_left";
+            button_left.Size = new Size(60, 60);
+            button_left.TabIndex = 23;
+            button_left.Text = "(";
+            button_left.Click += button_left_Click;
             // 
             // Main
             // 
-            ClientSize = new Size(300, 500);
-            Controls.Add(label1);
+            ClientSize = new Size(300, 600);
+            Controls.Add(button_sqaure);
+            Controls.Add(button_right);
+            Controls.Add(button_left);
+            Controls.Add(expression);
             Controls.Add(button_sub);
             Controls.Add(button_mul);
             Controls.Add(button_div);
@@ -287,7 +339,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(panel_top);
-            MinimumSize = new Size(300, 500);
+            MinimumSize = new Size(300, 600);
             Name = "Main";
             panel_top.ResumeLayout(false);
             ResumeLayout(false);
@@ -296,7 +348,7 @@
         #endregion
 
         private Panel panel_top;
-        private AntdUI.Label label;
+        private AntdUI.Label title;
         private AntdUI.Button btn_close;
         private AntdUI.Button btn_min;
         private AntdUI.Button btn_max;
@@ -317,6 +369,9 @@
         private AntdUI.Button button_div;
         private AntdUI.Button button_mul;
         private AntdUI.Button button_sub;
-        private AntdUI.Label label1;
+        private AntdUI.Label expression;
+        private AntdUI.Button button_sqaure;
+        private AntdUI.Button button_right;
+        private AntdUI.Button button_left;
     }
 }

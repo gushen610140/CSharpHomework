@@ -18,3 +18,4 @@ C:\Projects\CSharpHomework\Experiment_1\Requirement_3\Requirement_3\obj\Debug\ne
 C:\Projects\CSharpHomework\Experiment_1\Requirement_3\Requirement_3\obj\Debug\net8.0-windows\Requirement_3.genruntimeconfig.cache
 C:\Projects\CSharpHomework\Experiment_1\Requirement_3\Requirement_3\obj\Debug\net8.0-windows\ref\Requirement_3.dll
 C:\Projects\CSharpHomework\Experiment_1\Requirement_3\Requirement_3\obj\Debug\net8.0-windows\Requirement_3.Properties.Resources.resources
+C:\Projects\CSharpHomework\Experiment_1\Requirement_3\Requirement_3\obj\Debug\net8.0-windows\Requirement_3.sourcelink.json
